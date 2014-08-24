@@ -20,6 +20,7 @@
 		CF44EE2D19AA2A7F00FF4219 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF44EE2B19AA2A7F00FF4219 /* InfoPlist.strings */; };
 		CF44EE2F19AA2A7F00FF4219 /* storyboard_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44EE2E19AA2A7F00FF4219 /* storyboard_testTests.m */; };
 		CF44EE3919AA2AA000FF4219 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF44EE3819AA2AA000FF4219 /* Storyboard.storyboard */; };
+		CF44EE3C19AA2B3400FF4219 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF44EE3B19AA2B3400FF4219 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		CF44EE2C19AA2A7F00FF4219 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF44EE2E19AA2A7F00FF4219 /* storyboard_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = storyboard_testTests.m; sourceTree = "<group>"; };
 		CF44EE3819AA2AA000FF4219 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		CF44EE3A19AA2B3400FF4219 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		CF44EE3B19AA2B3400FF4219 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				CF44EE1B19AA2A7F00FF4219 /* Images.xcassets */,
 				CF44EE1019AA2A7F00FF4219 /* Supporting Files */,
 				CF44EE3819AA2AA000FF4219 /* Storyboard.storyboard */,
+				CF44EE3A19AA2B3400FF4219 /* MyViewController.h */,
+				CF44EE3B19AA2B3400FF4219 /* MyViewController.m */,
 			);
 			path = "storyboard-test";
 			sourceTree = "<group>";
@@ -243,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF44EE3C19AA2B3400FF4219 /* MyViewController.m in Sources */,
 				CF44EE1A19AA2A7F00FF4219 /* AppDelegate.m in Sources */,
 				CF44EE1619AA2A7F00FF4219 /* main.m in Sources */,
 			);
