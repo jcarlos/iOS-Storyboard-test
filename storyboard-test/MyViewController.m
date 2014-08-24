@@ -26,6 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.myLabel.text = @"New text!!";
     // Do any additional setup after loading the view.
 }
 
