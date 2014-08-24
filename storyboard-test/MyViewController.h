@@ -10,4 +10,5 @@
 
 @interface MyViewController : UIViewController
 @property (nonatomic, strong) IBOutlet UILabel *myLabel;
+- (IBAction)changeTxt:(id)sender;
 @end

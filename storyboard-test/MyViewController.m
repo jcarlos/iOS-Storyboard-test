@@ -23,6 +23,10 @@
     return self;
 }
 
+- (IBAction)changeTxt:(id)sender{
+    self.myLabel.text = @"I've changed!!";
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
